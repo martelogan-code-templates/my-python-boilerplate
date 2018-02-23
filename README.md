@@ -21,6 +21,7 @@ The following table illustrates steps required to setup a basic python project f
 - [ ] Modify this README (and subdirectory READMEs) with general project documentation
 - [ ] Modify project contributors as necessary under: [AUTHORS](AUTHORS), [setup.py](setup.py), [docs/conf.py](docs/conf.py), and all README citations
 - [ ] Leverage existing directories as desired (e.g. data under data/, config under config/, etc.)
+- [ ] Delete the cloned .git subdirectory, run `git init`, and establish the new remote project repository
 - [ ] Replace this README section with a project status checklist
 
 Installation
