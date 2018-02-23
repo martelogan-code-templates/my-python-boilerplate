@@ -1,6 +1,6 @@
 My-Python-Boilerplate
 =================================================
-[![Build Status](https://travis-ci.com/martelogan/my-python-boilerplate.svg?branch=master)](https://travis-ci.com/martelogan/my-python-boilerplate)
+[![Build Status](https://travis-ci.org/martelogan/my-python-boilerplate.svg?branch=master)](https://travis-ci.org/martelogan/my-python-boilerplate)
 
 Description
 -------------
