@@ -29,9 +29,9 @@ Installation
 1. Make sure you have all the dependencies needed to build this project. In particular, immediately after git clone, you should be able to successfully build 
 the project from a command-line environment under **[Python 2.7](http://docs.python-guide.org/en/latest/starting/install/linux/)** 
 via the command:
-.. code-block:: bash
-
+```bash
    python setup.py develop
+```
 
 2. The recommended IDE for developer consistency is [PyCharm](https://www.jetbrains.com/pycharm/). 
 Leveraging PyCharm, it would be ideal for project contributors to ensure that code conforms to [PEP 8 standards](https://www.python.org/dev/peps/pep-0008/).
@@ -49,11 +49,11 @@ Execution
 The first thing we do is import the module and get an ``ExampleClass`` 
 object.
 
-.. code-block:: python
-
+```python
    >>> from my-python-boilerplate import ExampleClass as Ex
    >>> example = Ex("hello")
    >>> ...
+```
 
 
 License
