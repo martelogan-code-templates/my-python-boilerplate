@@ -14,7 +14,7 @@ def execution_1_args_parsing(subparsers):
     parser_t.add_argument('-l', '--sentence_length', required=False, type=int,
                           dest='allowed_words_per_sentence', action='store',
                           default=0, help=help_str)
-    parser_t.set_defaults(func=execution_1)
+    parser_t.set_defaults(func=execution1)
 
 
 def execution_2_args_parsing(subparsers):
@@ -29,7 +29,7 @@ def execution_2_args_parsing(subparsers):
     parser_t.add_argument('-l', '--sentence_length', required=False, type=int,
                           dest='allowed_words_per_sentence', action='store',
                           default=0, help=help_str)
-    parser_t.set_defaults(func=execution_2)
+    parser_t.set_defaults(func=execution2)
 
 
 def arg_parsing():
