@@ -34,7 +34,7 @@ output_dest/env1/*
 output_dest/env2/*
 !output_dest/env2/README.md
 .dir_bash_history
-./idea/*
+.idea/*
 
 ## *** Ignores courtesy of (https://github.com/kennethreitz/samplemod/blob/master/.gitignore) ***
 

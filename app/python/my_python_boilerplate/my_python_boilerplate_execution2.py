@@ -32,7 +32,7 @@ def set_execution2_global_vars(argu):
 
 
 def execution2(argu):
-    set_parsing_global_vars(argu)
+    set_execution2_global_vars(argu)
     formatted_target_user_name_str = target_user_name.lower().replace(" ", "_")
     example_helper(argu)
     print "\n\tFinished execution2 for target user '{}'".format(target_user_name.replace("\\", ""))

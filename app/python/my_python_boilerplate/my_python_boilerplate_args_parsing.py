@@ -1,5 +1,5 @@
-from my_python_boilerplate_execution1 import execution_1
-from my_python_boilerplate_execution2 import execution_2
+from my_python_boilerplate_execution1 import execution1
+from my_python_boilerplate_execution2 import execution2
 
 
 def execution_1_args_parsing(subparsers):
