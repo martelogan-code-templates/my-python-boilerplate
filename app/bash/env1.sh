@@ -16,7 +16,7 @@ source $SCRIPT_EXECUTION_DIRECTORY/env_setup.sh;
 # validate successful environment setup
 if [[ ! $? = 0 ]]; then
     printf "\n";
-    echo "Failed to setup environment. Exiting train.sh execution...";
+    echo "Failed to setup environment. Exiting env1.sh execution...";
     printf "\n";
     exit 1;
 fi
