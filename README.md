@@ -20,7 +20,6 @@ The following table illustrates steps required to setup a basic python project f
 - [ ] Find & Replace all instances of _my_python_boilerplate_ (case-sensitive) with your project name
 - [ ] Modify this README (and subdirectory READMEs) with general project documentation
 - [ ] Modify project contributors as necessary under: [AUTHORS](AUTHORS), [setup.py](setup.py), [docs/conf.py](docs/conf.py), and all README citations
-- [ ] Leverage existing directories as desired (e.g. data under data/, config under config/, etc.)
 - [ ] Delete the cloned .git subdirectory, run `git init`, and establish the new remote project repository
 - [ ] Replace this README section with a project status checklist
 
@@ -61,6 +60,7 @@ object.
 
 License
 -------
+
 This code is under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 If you use or modify _my-python-boilerplate_, please credit the original author as
