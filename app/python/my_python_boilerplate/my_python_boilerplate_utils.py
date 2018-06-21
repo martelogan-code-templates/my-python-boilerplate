@@ -1,18 +1,29 @@
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
+# !/usr/bin/env python
 
-# Helper function for my-python-boilerplate project
+"""Helper functions for political-attribution-source-classifier project."""
+
+# GLOBAL IMPORTS
 
 from my_python_boilerplate_args_parsing import *
 
-import csv
+# LICENSE INFORMATION HEADER
+
+__author__ = "Logan Martel"
+__copyright__ = "Copyleft (c) 2018, McGill Network Dynamics - Political Attribution Pilot Study"
+__credits__ = ["Logan Martel", "Edward Newell", "Derek Ruths"]
+__license__ = "GPLv3+"
+__version__ = "0.1.0"
+__maintainer__ = "Logan Martel"
+__email__ = "logan.martel@outlook.com"
+__status__ = "Development"
 
 # GLOBAL VARIABLES
 
 target_user_name = ""
 
+# PUBLIC INTERFACE
 
-# HELPER METHODS
 
 def hello():
     print "hello"

@@ -1,5 +1,23 @@
+# -*- coding: utf-8 -*-
+# !/usr/bin/env python
+
+"""Arguments parsing for the module."""
+
+# LIBRARY IMPORTS
+
 from my_python_boilerplate_execution1 import execution1
 from my_python_boilerplate_execution2 import execution2
+
+# LICENSE INFORMATION HEADER
+
+__author__ = "Logan Martel"
+__copyright__ = "Copyleft (c) 2018, Logan Martel"
+__credits__ = ["Logan Martel"]
+__license__ = "GPLv3+"
+__version__ = "0.1.0"
+__maintainer__ = "Logan Martel"
+__email__ = "logan.martel@outlook.com"
+__status__ = "Development"
 
 
 def execution_1_args_parsing(subparsers):

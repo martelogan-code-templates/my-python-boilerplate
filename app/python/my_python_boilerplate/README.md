@@ -7,7 +7,7 @@ This subdirectory is intended to host python source files for the my-python-boil
 The current source content:
 
 1. [my-python-boilerplate_args_parsing.py](my-python-boilerplate_args_parsing.py) : common parsing of input arguments
-2. [my-python-boilerplate_helpers.py](my-python-boilerplate_helpers.py) : common helper methods
+2. [my-python-boilerplate_utils.py](my-python-boilerplate_utils.py) : common helper methods
 3. [my-python-boilerplate_execution1.py](my-python-boilerplate_execution1.py) : implements execution1
 3. [my-python-boilerplate_execution2.py](my-python-boilerplate_execution2.py) : implements execution2
 

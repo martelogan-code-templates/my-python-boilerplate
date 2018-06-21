@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-#!/usr/bin/env python
+# !/usr/bin/env python
 
-# [Insert description of script here]
+"""Execution1 of the module."""
 
 from my_python_boilerplate_args_parsing import *
-from my_python_boilerplate_helpers import *
+from my_python_boilerplate_utils import *
 
 import csv
 
@@ -12,13 +12,24 @@ import csv
 
 target_user_name = ""
 
+# LICENSE INFORMATION HEADER
+
+__author__ = "Logan Martel"
+__copyright__ = "Copyleft (c) 2018, Logan Martel"
+__credits__ = ["Logan Martel"]
+__license__ = "GPLv3+"
+__version__ = "0.1.0"
+__maintainer__ = "Logan Martel"
+__email__ = "logan.martel@outlook.com"
+__status__ = "Development"
+
 
 # HELPER OPERATIONS
 
 
 def encode_to_utf8(message):
     return message.decode('utf-8', 'ignore').encode("utf-8")
-    
+
 
 # PUBLIC INTERFACE
 
@@ -36,6 +47,7 @@ def execution1(argu):
     formatted_target_user_name_str = target_user_name.lower().replace(" ", "_")
     example_helper(argu)
     print "\n\tFinished execution1 for target user '{}'".format(target_user_name.replace("\\", ""))
+
 
 ##############################################################################
 #                               MAIN
