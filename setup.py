@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 
-with open('app/python/docs/index.rst') as f:
+with open('docs/index.rst') as f:
     readme = f.read()
 
 with open('LICENSE') as f:
@@ -12,7 +12,7 @@ with open('LICENSE') as f:
 setup(
     name='my-python-boilerplate',
     version='0.1.0',
-    description='Boilerplate repository for python projects.',
+    description='Boilerplate repository for python libraries.',
     long_description=readme,
     author='Logan Martel',
     author_email='logan.martel@outlook.com',
@@ -39,8 +39,7 @@ setup(
     # What does your project relate to?
     keywords= (
 		'Python'
-    ),
-    package_dir={'':'app/python'}, 
-    packages=find_packages('app/python', exclude=('tests', 'docs'))
+    ), 
+    packages=find_packages(exclude=('tests', 'docs'))
 )
 
