@@ -37,6 +37,8 @@ via the command:
 2. The recommended IDE for developer consistency is [PyCharm](https://www.jetbrains.com/pycharm/). 
 Leveraging PyCharm, it would be ideal for project contributors to ensure that code conforms to [PEP 8 standards](https://www.python.org/dev/peps/pep-0008/).
 
+(**RECOMMENDATION:** Ideally, it is advised to manage Python virtual environments via [`conda`](https://docs.continuum.io/anaconda/) in order to safely segregate module dependencies. In this case, it is recommended to locallize [`pip`](https://pip.pypa.io/en/stable/installing/) installations during conda environment creation, to avoid dependency conflicts, by instantiating the environment with its own [`pip`](https://pip.pypa.io/en/stable/installing/) setup, à la `conda create --name custom_venv_name pip`. Alternatively, a basic [`conda`](https://docs.continuum.io/anaconda/) venv, equipped with its own localized [`pip`](https://pip.pypa.io/en/stable/installing/), can be configured from this project directory simply by running `conda env create -f environment.yml` and then [activating the environment](https://conda.io/docs/user-guide/tasks/manage-environments.html#activating-an-environment) (linux example: `source activate my-python-boilerplate`)).
+
 Development
 ------------
 
